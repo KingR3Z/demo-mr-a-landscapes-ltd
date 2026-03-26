@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "7",
 
   // Services
   services: [
@@ -79,9 +79,13 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Lynzi Gilbert", rating: 5, text: "New From start to finish, Al and his team have taken great care to create our vision for our garden and I cannot believe the space we now have! The weather was not kind for the time they have been with us, but they cracked on in the pouring …  ", date: "3 weeks ago" },
+    { name: "Lauren Whiteside", rating: 5, text: "We’re really pleased with the work Al and his team have done – they were fantastic from start to finish. Communication was excellent, everything was handled professionally, and the results speak for themselves. They removed our old decking …  ", date: "5 months ago" },
+    { name: "Cathrine Hayday", rating: 5, text: "We chose Mr A Landscapes after being recommended them by our neighbors who also had their garden done by them. …  ", date: "2 months ago" },
+    { name: "Luke (Luke)", rating: 5, text: "Mr A Landscaped did an absolutely fantastic job laying my back garden patio and path. The work was completed to a very high standard, and the result looks amazing. On …  ", date: "5 months ago" },
+    { name: "Russ Gilbert", rating: 5, text: "New So pleased with our new garden.  Al was the only quote we had that saw our vision and constructed our garden exactly the way we wanted it, even adding extras and amendments along the way if we asked.  Al and Dennis were out in horrible …  ", date: "3 weeks ago" },
+    { name: "Tolu Lope", rating: 5, text: "Alex and the boys were awesome with our full garden job - extremely professional yet pleasant in all his dealings. His quote was very transparent, and I was able to swap things around, pick my preferred stones and porcelain tiles as the job …  ", date: "5 months ago" },
+    { name: "Yvonne Webb", rating: 5, text: "Mr A and his team did a very good job of work on our wall. They were polite and professional. ", date: "11 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
